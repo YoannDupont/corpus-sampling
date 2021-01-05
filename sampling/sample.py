@@ -96,7 +96,7 @@ def parse_cl(argv=None):
         "-s", "--sample-size",
         type=int,
         default=1000,
-        help="The size in number of tokens to sample."
+        help="The size of the sample in number of tokens (default: %(default)s)."
     )
     parser.add_argument(
         "-o", "--output-dir",
