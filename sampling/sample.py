@@ -11,11 +11,11 @@ import sys
 import random
 from pathlib import Path
 
-import conll
-import wikiner
-import wikinews
-import text
-import apil
+import sampling.conll as conll
+import sampling.wikiner as wikiner
+import sampling.wikinews as wikinews
+import sampling.text as text
+import sampling.apil as apil
 
 
 def guess_format(pathname):
